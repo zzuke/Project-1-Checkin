@@ -1,0 +1,85 @@
+.category-continued #showcase {
+    margin-top: 0;
+}
+
+.page-history {
+    padding: 20px;
+}
+
+.page-history ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    font-family: var(--jakarta);
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.page-history a {
+    text-decoration: none;
+    color: var(--c_dark_purple);
+}
+
+.page-history a:hover {
+    color: var(--c_purple_velvet);
+}
+
+.page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.page-title h1 {
+    font-family: var(--pop);
+    font-size: 2em;
+    
+}
+
+.page-title p {
+    max-width: 585px;
+    font-family: var(--body);
+}
+
+/* Contact */
+
+#contact-showcase {
+    background-color: var(--c_light_purple);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 60px 0;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+.contact-info h1,
+.contact-info p {
+    font-family: var(--jakarta);
+    margin-top: 5px;
+}
+
+.contact-info h1 {
+    font-size: 1.4em;
+}
+
+.contact-info button {
+    background-color: var(--c_light_purple);
+    color: black;
+    border: 2px solid var(--c_dark_purple);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    font-family: var(--pop);
+}
+
+.contact-info button:hover {
+    background-color: var(--c_shamrock);
+}
