@@ -1,9 +1,15 @@
+/* Extra Styles for extra pages */
+
 .category-continued #showcase {
     margin-top: 0;
 }
 
 .page-history {
     padding: 20px;
+}
+
+.page-history span {
+    color: var(--c_radient_red);
 }
 
 .page-history ul {
@@ -18,11 +24,15 @@
 
 .page-history a {
     text-decoration: none;
-    color: var(--c_dark_purple);
+    color: var(--c_sky_blue);
 }
 
 .page-history a:hover {
-    color: var(--c_purple_velvet);
+    color: var(--c_radioactive);
+}
+
+.current {
+    color: var(--c_cool_gray);
 }
 
 .page-title {
@@ -34,7 +44,7 @@
 
 .page-title h1 {
     font-family: var(--pop);
-    font-size: 2em;
+    font-size: 3em;
     
 }
 
@@ -46,7 +56,7 @@
 /* Contact */
 
 #contact-showcase {
-    background-color: var(--c_light_purple);
+    background: var(--chill);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -57,27 +67,50 @@
     align-content: space-around;
 }
 
+
 .contact-info h1,
 .contact-info p {
     font-family: var(--jakarta);
     margin-top: 5px;
+    color: black;
 }
 
 .contact-info h1 {
+    font-size: 2em;
+}
+
+.contact-info p {
     font-size: 1.4em;
 }
 
-.contact-info button {
-    background-color: var(--c_light_purple);
+.contact-info a {
+    font-family: var(--jakarta);
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    text-decoration: none;
     color: black;
-    border: 2px solid var(--c_dark_purple);
+    font-weight: 600;
+}
+
+.contact-info a:hover {
+    color: var(--c_sun_yellow);
+}
+
+
+.contact-info button {
+    background-color: var(--c_cool_green);
+    color: black;
+    border: 2px solid var(--c_radioactive);
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 10px;
     font-size: 1.2rem;
+    font-weight: 500;
+    font-family: var(--pop);
     cursor: pointer;
     transition: all 0.3s ease;
     margin-top: 10px;
-    font-family: var(--pop);
 }
 
 .contact-info button:hover {
